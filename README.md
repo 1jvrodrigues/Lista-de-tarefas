@@ -1,6 +1,8 @@
 ✅ Minhas Tarefas
 
-Uma lista de tarefas simples, bonita e funcional, feita com HTML, CSS e JavaScript puro — sem frameworks, sem dependências, só o essencial.
+Uma lista de tarefas simples, bonita e funcional, feita com HTML, CSS e JavaScript puro 
+
+— sem frameworks, sem dependências, só o essencial.
 
 Este foi meu primeiro projeto no GitHub, criado para praticar lógica de programação
 
