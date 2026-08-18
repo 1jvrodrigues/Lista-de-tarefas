@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Tarefas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="card">
+    <header class="card__header">
+      <p class="eyebrow">Hoje</p>
+      <h1>Minhas Tarefas</h1>
+      <p class="counter" id="counter">Nenhuma tarefa ainda</p>
+    </header>
+
+    <form id="form" class="add-form">
+      <input
+        type="text"
+        id="input"
+        placeholder="O que você precisa fazer?"
+        autocomplete="off"
+      >
+      <button type="submit" aria-label="Adicionar tarefa">+</button>
+    </form>
+
+    <ul id="list" class="task-list"></ul>
+
+    <p class="empty-state" id="empty-state">Sua lista está vazia. Adicione algo acima ✨</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
